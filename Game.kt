@@ -13,7 +13,7 @@ fun main() {
     val gameStamps = generateGame()
     val offset = 100000000 // For example, we are looking for an account at this offset
     val score = getScore(gameStamps, offset)
-    println("Счет на смещении $offset: Home ${score.home}, Away ${score.away}")
+    println("Offset account $offset: Home ${score.home}, Away ${score.away}")
 }
 
 
