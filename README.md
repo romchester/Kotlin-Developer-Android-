@@ -35,7 +35,7 @@ Explanation
 - Test Methods :
   - test getScore when offset is less than first stamp : Ensures that if the provided offset is less than the first stamp's offset, the initial score (0, 0) is returned.
   - test getScore when offset is greater than or equal to last stamp : Ensures that if the provided offset is greater than or equal to the last stamp's offset, the last score is returned.
-test getScore when offset matches exactly one stamp : Ensures that if the provided offset matches an exact stamp's offset, the corresponding score is returned.
-test getScore when offset is between two stamps : Ensures that if the provided offset is between two stamps, the score of the earlier stamp is returned.
-test getScore with random offset within range : Generates a random offset within the range of all stamps and checks that the correct score is returned.
-test getScore with empty stamps array : Ensures that if the stamps array is empty, the initial score (0, 0) is returned.
+  - test getScore when offset matches exactly one stamp : Ensures that if the provided offset matches an exact stamp's offset, the corresponding score is returned.
+  - test getScore when offset is between two stamps : Ensures that if the provided offset is between two stamps, the score of the earlier stamp is returned.
+  - test getScore with random offset within range : Generates a random offset within the range of all stamps and checks that the correct score is returned.
+  - test getScore with empty stamps array : Ensures that if the stamps array is empty, the initial score (0, 0) is returned.
